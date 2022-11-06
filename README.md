@@ -10,3 +10,7 @@ the API end points are:
 (5)"localhost:8000/deleteSession/:id" for deleting a session
 (6)"localhost:8000/addSession/:id" for adding a session
 We can check these API on Postman and ThunderClinet
+npm install
+npm run start
+and check these API rounds on Postman and ThunderClient
+
