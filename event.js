@@ -83,3 +83,16 @@ export const getEventList=()=>{
             
     ]
 }
+export const findEventById = (id) =>{
+const events = getEventList()
+   const eventFound = events.filter((event) => {
+        if (event.id === id) {
+             return event
+        }   
+    });
+   if(eventFound.length>0){
+        return eventFound
+    }
+    return false
+
+}
